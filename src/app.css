@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-primary: #3b82f6;
+  --color-dark: #1e293b;
+  --color-light: #f8fafc;
+}
+.skill-bar {
+  @apply h-2 rounded bg-gray-200 overflow-hidden;
+}
+
+.skill-progress {
+  @apply h-full bg-dark transition-all duration-1000;
+}
+
+.timeline-item:not(:last-child)::after {
+  @apply absolute left-3 top-6 h-[calc(100%-24px)] w-0.5 bg-gray-300;
+  content: '';
+}
