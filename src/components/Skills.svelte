@@ -19,7 +19,7 @@
   <section class="bg-white rounded-xl shadow-md p-8">
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-cogs mr-3"></i>
-      <span>Skills</span>
+      <span>Compétences</span>
     </h2>
     <div class="space-y-6">
       <div>

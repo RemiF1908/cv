@@ -9,6 +9,7 @@
     import Languages from '../components/Languages.svelte';
     
     import { onMount } from 'svelte';
+    import Assocs from '../components/Assocs.svelte';
   
     onMount(() => {
       // Animate skill bars
@@ -35,6 +36,8 @@
         <div class="md:w-2/3 space-y-8">
           <Experience />
           <Projects />
+          <Assocs />
+
         </div>
         
         <div class="md:w-1/3 space-y-8">

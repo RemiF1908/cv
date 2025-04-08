@@ -22,7 +22,7 @@
   <section class="bg-white rounded-xl shadow-md p-8">
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-graduation-cap mr-3"></i>
-      <span>Education</span>
+      <span>Formation</span>
     </h2>
     <div class="space-y-6">
       {#each education as edu}

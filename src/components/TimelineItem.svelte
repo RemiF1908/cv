@@ -3,7 +3,7 @@
     export let title;
     export let company;
     export let period;
-    export let bullets = [];
+    export let bullets;
   </script>
   
   <div class="relative pl-8 timeline-item">

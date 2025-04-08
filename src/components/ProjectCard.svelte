@@ -8,9 +8,9 @@
   
   <div class="project-card bg-gray-50 rounded-lg p-6 border border-gray-200 transition-all duration-300">
     <div class="flex items-center mb-4">
-      <div class="w-12 h-12 rounded-md bg-primary flex items-center justify-center text-white mr-4">
+      <!-- <div class="w-12 h-12 rounded-md bg-primary flex items-center justify-center text-white mr-4">
         <i class="fas fa-{icon} text-xl"></i>
-      </div>
+      </div> -->
       <h3 class="text-lg font-semibold">{title}</h3>
     </div>
     <p class="text-gray-600 mb-4">{description}</p>

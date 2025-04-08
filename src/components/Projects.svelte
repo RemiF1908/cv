@@ -7,7 +7,7 @@
         title: "OpenBar",
         description: "Application web open source permettant la gestion de la cafétéria de Télécom Nancy",
         tech: ["Golang", "Svelte", "MongoDB"],
-        icon: "project-diagram"
+        icon: "utensils"
       },
       {
         title: "EDT CPP",
@@ -22,7 +22,7 @@
   <section class="bg-white rounded-xl shadow-md p-8">
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-code mr-3"></i>
-      <span>Projects</span>
+      <span>Projets</span>
     </h2>
     <div class="grid md:grid-cols-2 gap-6">
       {#each projects as project}

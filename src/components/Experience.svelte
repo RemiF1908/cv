@@ -30,7 +30,7 @@
   <section class="bg-white rounded-xl shadow-md p-8">
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-briefcase mr-3"></i>
-      <span>Work Experience</span>
+      <span>Expérience professionnel</span>
     </h2>
     
     <div class="space-y-8 relative">
