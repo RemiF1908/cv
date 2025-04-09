@@ -15,7 +15,7 @@
     ];
   </script>
   
-  <section class="bg-white rounded-xl shadow-md p-8">
+  <section class="bg-card rounded-xl shadow-md p-8">
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-certificate mr-3"></i>
       <span>Certifications</span>
@@ -28,7 +28,7 @@
           </div>
           <div>
             <h3 class="font-semibold">{cert.title}</h3>
-            <p class="text-sm text-gray-600">{cert.issuer} - {cert.year}</p>
+            <p class="text-sm text-light">{cert.issuer} - {cert.year}</p>
           </div>
         </div>
       {/each}

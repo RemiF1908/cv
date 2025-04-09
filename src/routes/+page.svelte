@@ -28,7 +28,7 @@
   <title>Rémi Ferrato</title>
 </svelte:head>
   
-  <div class="bg-gray-50 text-gray-800 font-sans">
+  <div class="bg-background text-light font-sans">
     <div class="container mx-auto px-4 py-8 max-w-6xl">
       <Header />
       

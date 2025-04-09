@@ -19,7 +19,7 @@
     ];
   </script>
   
-  <section class="bg-white rounded-xl shadow-md p-8">
+  <section class="bg-card rounded-xl shadow-md p-8">
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-graduation-cap mr-3"></i>
       <span>Formation</span>
@@ -28,7 +28,7 @@
       {#each education as edu}
         <div>
           <h3 class="text-lg font-semibold">{edu.degree}</h3>
-          <p class="text-gray-600">{edu.institution}</p>
+          <p class="text-light">{edu.institution}</p>
           <p class="text-sm text-gray-500">{edu.period}</p>
         </div>
       {/each}
