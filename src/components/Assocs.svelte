@@ -30,7 +30,7 @@
         ]      
       },
       {
-        title: "Administrateur de l'environement informatique du milieu associatif de Télécom Nancy",
+        title: "Administrateur de l'environement informatique des associations de Télécom Nancy",
         bullets: [
           "Gestion de serveur web",
           "Utilisation de Google Workspace"
