@@ -7,12 +7,12 @@
         period: "2024 - 2027"
       },
       {
-        degree: "Classe préparatoire intégrée",
+        degree: "Classe préparatoire intégré",
         institution: "Prépa des INP, Grenoble",
         period: "2022 - 2024"
       },
       {
-        degree: "Baccalauréat Mathétique Science de l'ingénieur",
+        degree: "Baccalauréat Mathématiques - Sciences de l'ingénieur",
         institution: "Lycée de la Méditerranée, La Ciotat",
         period: "2019 - 2022"
       }
