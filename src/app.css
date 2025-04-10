@@ -11,11 +11,11 @@
 }
 
 .skill-bar {
-  @apply h-2 rounded bg-gray-200 overflow-hidden;
+  @apply h-2 rounded bg-primary overflow-hidden;
 }
 
 .skill-progress {
-  @apply h-full bg-dark transition-all duration-1000;
+  @apply h-full bg-gray-200 transition-all duration-1000;
 }
 
 .timeline-item:not(:last-child)::after {

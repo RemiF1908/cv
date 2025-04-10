@@ -1,9 +1,9 @@
 <!-- src/components/Languages.svelte -->
 <script>
     export let languages = [
-      { name: "Français", level: "Native", percentage: 100 },
-      { name: "Anglais", level: "Intermediate", percentage: 70 },
-      { name: "Italien", level: "Intermediate", percentage: 60 }
+      { name: "Français", level: "Natif", percentage: 100 },
+      { name: "Anglais", level: "Intermédiaire", percentage: 70 },
+      { name: "Italien", level: "Intermédiaire", percentage: 60 }
     ];
   </script>
   

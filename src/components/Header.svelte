@@ -19,19 +19,19 @@
   
   <header class="bg-card rounded-xl shadow-md overflow-hidden mb-8">
     <div class="md:flex">
-      <div class="md:w-1/3 bg-gray-900 p-8 flex items-center justify-center">
+      <div class="md:w-1/3 bg-primary p-8 flex items-center justify-center">
         <div class="text-center">
           <div class="w-32 h-32 mx-auto mb-4 rounded-full border-4 border-white overflow-hidden shadow-lg">
             <img src={profile.image} alt="Profile" class="w-full h-full object-cover" />
           </div>
           <h1 class="text-2xl font-bold text-light">{profile.name}</h1>
-          <p class="text-blue-500">{profile.title}</p>
+          <p class="text-light">{profile.title}</p>
         </div>
       </div>
       
       <div class="md:w-2/3 p-8">
         <div class="space-y-6">
-          <h2 class="text-2xl font-bold text-light mb-6">Contact</h2>
+          <h2 class="text-2xl font-bold text-light mb-6">Mes contacts</h2>
           
           <div class="md:flex md:gap-8 space-y-4 md:space-y-0">
             <div class="flex-1 space-y-4">
