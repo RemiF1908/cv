@@ -19,9 +19,9 @@
             <span>{lang.name}</span>
             <span>{lang.level}</span>
           </div>
-          <div class="skill-bar">
+          <!-- <div class="skill-bar">
             <div class="skill-progress bg-blue" style={`width: ${lang.percentage}%`}></div>
-          </div>
+          </div> -->
         </div>
       {/each}
     </div>

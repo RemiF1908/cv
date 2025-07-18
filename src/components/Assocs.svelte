@@ -4,15 +4,24 @@
     
     export let assocs = [
       {
+        title: "Vice-trésortier du Cercle des étudiant de Télécom Nancy (CETEN)",
+        bullets: [
+          "Gestion d'un budget de plus de 100 000€",
+          "Gestion financière d'une quarantaine de clubs",
+          "Comptabilité"
+        ]
+      },
+      {
         title: "Trésorier du club de Cyber-sécurité de Télécom Nancy",
         bullets: [
           "Gestion d'un budget",
           "Réalisation du budget prévisionel annuel",
-          "Développement du site web du club, proposant des cours sur la cyber-sécurité"
+          "Développement du site web du club, proposant des cours sur la cyber-sécurité",
+          "Organisation d'un CTF"
         ]
       },
       {
-        title: "Vice-trésorier du club bar de Télécom Nancy (cafétéria)",
+        title: "Vice-président et Vice-trésorier du club bar de Télécom Nancy (cafétéria)",
         bullets: [
           "Comptabilité",
           "Respect des règles sanitaires",
