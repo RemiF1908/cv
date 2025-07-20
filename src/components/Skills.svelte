@@ -7,7 +7,7 @@
    import { onMount } from 'svelte';
   let data = null;
   let error = null;
-  export let score = 0;
+  export let score = "...";
   onMount(async () => {
     try {
       const response = await fetch('/api');
