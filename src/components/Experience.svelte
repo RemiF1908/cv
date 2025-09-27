@@ -10,7 +10,7 @@
         bullets: [
           "Découverte du monde de la recherche",
           "Prise en main de Pytorch",
-          "Étude du comportement élastique des matériaux à l'aide de réseaux de neurones",
+          "Étude du comportement inélastique des matériaux à l'aide de réseaux de neurones",
         ]
       },
       {
