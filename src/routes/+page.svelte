@@ -12,7 +12,6 @@
     import Assocs from '../components/Assocs.svelte';
   
     onMount(() => {
-      // Animate skill bars
       const skillBars = document.querySelectorAll('.skill-progress');
       skillBars.forEach(bar => {
         const width = bar.style.width;

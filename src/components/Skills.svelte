@@ -25,17 +25,16 @@
   });
 
     export let skills = {
-      frontend: [
+      language: [
         { name: "HTML/CSS", percentage: 85 },
-        { name: "JavaScript/TypeScript", percentage: 60 }
-      ],
-      backend: [
+        { name: "JavaScript/TypeScript", percentage: 60 },
+        { name: "Svelte", percentage: 50 },
         { name: "Python", percentage: 90 },
         { name: "Php", percentage: 70 },
         { name: "C", percentage: 60 },
         { name: "Golang", percentage: 20 },
       ],
-      other: ["Git", "Docker", "Bash"]
+      other: ["Git", "Docker", "Bash", "CI/CD", "Portainer"]
     };
   </script>
   
@@ -46,32 +45,24 @@
     </h2>
     <div class="space-y-6">
       <div>
-        <h3 class="font-semibold mb-2">Frontend</h3>
+      <div>
         <div class="space-y-3">
-          {#each skills.frontend as skill}
+          {#each skills.language as skill}
             <SkillItem {...skill} />
           {/each}
         </div>
       </div>
-      
-      <div>
-        <h3 class="font-semibold mb-2">Backend</h3>
-        <div class="space-y-3">
-          {#each skills.backend as skill}
-            <SkillItem {...skill} />
-          {/each}
-        </div>
-      </div>
-      <div>
+      <div class="mb-5 mt-5">
         <h3 class="font-semibold mb-2">Other</h3>
         <div class="flex flex-wrap gap-2">
           {#each skills.other as skill}
             <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">{skill}</span>
           {/each}
-            <span class="font-semibold mb-2" >Point Root-Me : <span class ="text-xl  text-blue-300">{score}</span></span>
 
         </div>
+        
       </div>
-      
+      <span class="font-semibold mb-2" >Point Root-Me : <span class ="text-xl  text-blue-300">{score}</span></span>
+
     </div>
   </section>
