@@ -1,0 +1,24 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${APP}.rule=Host(`${DOMAIN}`)"
+      - "traefik.http.services.${APP}.loadbalancer.server.port=${PORT}"
+      - "traefik.http.routers.${APP}.entrypoints=web,websecure"  
+      - "traefik.http.routers.${APP}.tls=true"  
+      - "traefik.http.routers.${APP}.tls.certresolver=${RESOLVER}"  
+
+    networks:
+      - traefik-public
+    restart: unless-stopped
+networks:
+  traefik-public:
+    external: true  
