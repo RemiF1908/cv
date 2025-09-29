@@ -17,7 +17,8 @@
           "Gestion d'un budget",
           "Réalisation du budget prévisionel annuel",
           "Développement du site web du club, proposant des cours sur la cyber-sécurité",
-          "Organisation d'un CTF"
+          "Organisation d'un CTF réunissant 200 participants",
+          "Participation à des compétitions en équipe"
         ]
       },
       {
