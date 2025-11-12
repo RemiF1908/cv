@@ -8,6 +8,7 @@
   let data = null;
   let error = null;
   export let score = "...";
+  var s=""
   onMount(async () => {
     try {
       const response = await fetch('/api');
@@ -18,6 +19,9 @@
 
       data = await response.json();
       score = data['score'];
+      if(score != "0"){
+        s = "s";
+      }
 
     } catch (e) {
       error = e.message;
@@ -53,7 +57,7 @@
         </div>
       </div>
       <div class="mb-5 mt-5">
-        <h3 class="font-semibold mb-2">Other</h3>
+        <h3 class="font-semibold mb-2">Autres</h3>
         <div class="flex flex-wrap gap-2">
           {#each skills.other as skill}
             <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">{skill}</span>
@@ -62,7 +66,8 @@
         </div>
         
       </div>
-      <span class="font-semibold mb-2" >Point Root-Me : <span class ="text-xl  text-blue-300">{score}</span></span>
+      
+      <span class="font-semibold mb-2" >Point{s} Root-Me : <span class ="text-xl  text-blue-300">{score}</span></span>
 
     </div>
   </section>

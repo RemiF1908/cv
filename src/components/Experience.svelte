@@ -19,8 +19,8 @@
         period: "Mai-Juin 2024",
         bullets: [
           "Participation à la création du nouveau site web de l'institut",
-          "Utilisation de drupal",
-          "Utilisation de GIT et de Docker"
+          "Utilisation de Drupal",
+          "Utilisation de Git et de Docker"
           // Other bullet points
         ]
       },
@@ -40,7 +40,7 @@
   <section class="bg-card rounded-xl shadow-md p-8">
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-briefcase mr-3"></i>
-      <span>Expérience professionnel</span>
+      <span>Expérience professionnelle</span>
     </h2>
     
     <div class="space-y-8 relative">

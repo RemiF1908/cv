@@ -2,7 +2,7 @@
 <script>
     export let profile = {
       name: "Rémi Ferrato",
-      title: "Etudiant ingénieur en informatique",
+      title: "Étudiant ingénieur en informatique",
       image: "/images/photo.jpg",
       contact: {
         email: "remi.ferrato@gmail.com",
@@ -13,7 +13,7 @@
         github: "github.com/RemiF1908",
         linkedin: "linkedin.com/in/remiferrato"
       },
-      about: "Etudiant en école d'ingénieur à Télécom Nancy"
+      about: "Étudiant en école d'ingénieur à Télécom Nancy"
     };
   </script>
   

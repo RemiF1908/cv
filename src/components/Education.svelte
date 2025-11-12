@@ -7,7 +7,7 @@
         period: "2024 - 2027"
       },
       {
-        degree: "Classe préparatoire intégré",
+        degree: "Classe préparatoire intégrée",
         institution: "Prépa des INP, Grenoble",
         period: "2022 - 2024"
       },

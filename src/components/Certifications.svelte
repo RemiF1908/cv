@@ -7,7 +7,7 @@
         year: 2024
       },
       {
-        title: "MOOC de l'ANSI",
+        title: "MOOC de l'ANSSI",
         issuer: "SecNumacadémie",
         year: 2024
       },

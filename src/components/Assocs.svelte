@@ -4,7 +4,7 @@
     
     export let assocs = [
       {
-        title: "Vice-trésortier du Cercle des étudiant de Télécom Nancy (CETEN)",
+        title: "Vice-trésortier du Cercle des élèves de Télécom Nancy (CETEN)",
         bullets: [
           "Gestion d'un budget de plus de 100 000€",
           "Gestion financière d'une quarantaine de clubs",
@@ -15,7 +15,7 @@
         title: "Trésorier du club de Cyber-sécurité de Télécom Nancy",
         bullets: [
           "Gestion d'un budget",
-          "Réalisation du budget prévisionel annuel",
+          "Réalisation du budget prévisionnel annuel",
           "Développement du site web du club, proposant des cours sur la cyber-sécurité",
           "Organisation d'un CTF réunissant 200 participants",
           "Participation à des compétitions en équipe"
@@ -40,7 +40,7 @@
         ]      
       },
       {
-        title: "Administrateur de l'environement informatique des associations de Télécom Nancy",
+        title: "Administrateur de l'environnement informatique des associations de Télécom Nancy",
         bullets: [
           "Gestion de serveurs web",
           "Utilisation de Google Workspace"
