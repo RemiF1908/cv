@@ -36,7 +36,7 @@
         { name: "Python", percentage: 90 },
         { name: "Php", percentage: 70 },
         { name: "C", percentage: 60 },
-        { name: "Golang", percentage: 20 },
+        { name: "Golang", percentage: 60 },
       ],
       other: ["Git", "Docker", "Bash", "CI/CD", "Portainer"]
     };
