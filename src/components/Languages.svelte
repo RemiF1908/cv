@@ -2,7 +2,7 @@
 <script>
     export let languages = [
       { name: "Français", level: "Langue maternelle", percentage: 100 },
-      { name: "Anglais", level: "Intermédiaire", percentage: 70 },
+      { name: "Anglais", level: "Niveau B2 (TOEIC)", percentage: 70 },
       { name: "Italien", level: "Intermédiaire", percentage: 60 }
     ];
   </script>
