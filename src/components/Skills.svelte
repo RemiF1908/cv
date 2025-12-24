@@ -24,19 +24,19 @@
       }
 
     } catch (e) {
-      error = e.message;
+      error = e instanceof Error ? e.message : 'Erreur inconnue';
     }
   });
 
     export let skills = {
       language: [
+        { name: "Python", percentage: 90 },
+        { name: "Golang", percentage: 60 },
+        { name: "Php", percentage: 70 },
+        { name: "C", percentage: 60 },
         { name: "HTML/CSS", percentage: 85 },
         { name: "JavaScript/TypeScript", percentage: 60 },
         { name: "Svelte", percentage: 50 },
-        { name: "Python", percentage: 90 },
-        { name: "Php", percentage: 70 },
-        { name: "C", percentage: 60 },
-        { name: "Golang", percentage: 60 },
       ],
       other: ["Git", "Docker", "Bash", "CI/CD", "Portainer"]
     };
@@ -47,27 +47,32 @@
       <i class="fas fa-cogs mr-3"></i>
       <span>Compétences</span>
     </h2>
+    
     <div class="space-y-6">
+      <!-- Langages -->
       <div>
-      <div>
-        <div class="space-y-3">
+        <h3 class="font-semibold mb-3 text-gray-300">Langages</h3>
+        <div class="flex flex-wrap gap-3">
           {#each skills.language as skill}
-            <SkillItem {...skill} />
+            <SkillItem name={skill.name} />
           {/each}
         </div>
-      </div>
-      <div class="mb-5 mt-5">
-        <h3 class="font-semibold mb-2">Autres</h3>
-        <div class="flex flex-wrap gap-2">
-          {#each skills.other as skill}
-            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">{skill}</span>
-          {/each}
-
-        </div>
-        
       </div>
       
-      <span class="font-semibold mb-2" >Point{s} Root-Me : <span class ="text-xl  text-blue-300">{score}</span></span>
-
+      <!-- Outils -->
+      <div>
+        <h3 class="font-semibold mb-3 text-gray-300">Outils</h3>
+        <div class="flex flex-wrap gap-3">
+          {#each skills.other as skill}
+            <SkillItem name={skill} />
+          {/each}
+        </div>
+      </div>
+      
+      <!-- Root-Me -->
+      <div class="pt-4 border-t border-gray-700">
+        <span class="font-semibold text-gray-300">Point{s} Root-Me : </span>
+        <span class="text-xl text-cyan-400">{score}</span>
+      </div>
     </div>
   </section>
