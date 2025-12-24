@@ -8,9 +8,8 @@
         company: "Inria Grenoble Alpes - Equipe Tripop",
         period: "Juin-Aout 2025",
         bullets: [
-          "Découverte du monde de la recherche",
-          "Prise en main de Pytorch",
-          "Étude du comportement inélastique des matériaux à l'aide de réseaux de neurones",
+          "Étude du comportement des matériaux inélastiques à l'aide de perceptrons multicouches",
+          "Développement et apprentissage de modèles avec PyTorch dans un environnement de recherche"
         ]
       },
       {
@@ -18,10 +17,8 @@
         company: "IRNC (Institut de recherche sur la résolution non-violente des conflits)",
         period: "Mai-Juin 2024",
         bullets: [
-          "Participation à la création du nouveau site web de l'institut",
-          "Utilisation de Drupal",
+          "Développement d'outils en Python d'analyse d'image avec Google API",
           "Utilisation de Git et de Docker"
-          // Other bullet points
         ]
       },
       {
@@ -30,10 +27,8 @@
         period: "Avril 2019",
         bullets: [
           "Découverte des métiers en lien avec l'optronique, la CAO, et le développement logiciel",
-          // Other bullet points
         ]
       },
-      // Other experiences
     ];
   </script>
   
