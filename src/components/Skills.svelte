@@ -38,7 +38,7 @@
         { name: "JavaScript/TypeScript", percentage: 60 },
         { name: "Svelte", percentage: 50 },
       ],
-      other: ["Git", "Docker", "Bash", "CI/CD", "Portainer"]
+      other: ["Git", "Docker", "Bash", "CI/CD", "Kubernetes"]
     };
   </script>
   

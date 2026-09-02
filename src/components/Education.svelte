@@ -1,6 +1,11 @@
 <!-- src/components/Education.svelte -->
 <script>
     export let education = [
+       {
+        degree: "Maîtrise d'informatique - Cheminement en cybersécurité",
+        institution: "Université de Sherbrooke (Canada - QC)",
+        period: "2026 - 2027"
+      },
       {
         degree: "Ingénieur du numérique",
         institution: "Télécom Nancy",

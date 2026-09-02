@@ -4,9 +4,19 @@
     
     const experiences = [
       {
+        title: "Stage assistant ingénieur",
+        company: "SHFDS - Ministère de l'Économie et des Finances",
+        period: "Juin-Août 2026",
+        bullets: [
+          "Déploiement d'un applicatif sur un VPS préalablement durci",
+          "Raccordement de l'applicatif et du VPS à un SIEM, création de règles de détection",
+          "Respect des normes (ANSSI, Ministère...)"
+        ]
+      },
+      {
         title: "Stage laboratoire",
         company: "Inria Grenoble Alpes - Equipe Tripop",
-        period: "Juin-Aout 2025",
+        period: "Juin-Août 2025",
         bullets: [
           "Étude du comportement des matériaux inélastiques à l'aide de perceptrons multicouches",
           "Développement et apprentissage de modèles avec PyTorch dans un environnement de recherche"

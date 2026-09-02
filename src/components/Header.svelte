@@ -14,7 +14,7 @@
         linkedin: "linkedin.com/in/remiferrato",
         rootme: "root-me.org/7low"
       },
-      about: "Étudiant en école d'ingénieur à Télécom Nancy"
+      about: "Étudiant en école d'ingénieur à Télécom Nancy, actuellement en double-diplôme à l'Université de Sherbrooke"
     };
   </script>
   

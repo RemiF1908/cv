@@ -22,7 +22,7 @@
         ]
       },
       {
-        title: "Vice-président et Vice-trésorier du club bar de Télécom Nancy (cafétéria)",
+        title: "Président et Vice-trésorier du club bar de Télécom Nancy (cafétéria)",
         bullets: [
           "Comptabilité",
           "Respect des règles sanitaires",
@@ -41,8 +41,9 @@
       {
         title: "Administrateur de l'environnement informatique des associations de Télécom Nancy",
         bullets: [
-          "Gestion de serveurs web",
-          "Utilisation de Google Workspace"
+          "Administration d'un serveur",
+          "Utilisation de Google Workspace",
+          "Déploiement d'application sur un cluster Kubernetes en GitOps"
         ]      
       },
     ];
