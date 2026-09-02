@@ -5,7 +5,7 @@
     const experiences = [
       {
         title: "Stage assistant ingénieur",
-        company: "SHFDS - Ministère de l'Économie et des Finances",
+        company: "Ministère de l'Économie et des Finances - SHFDS",
         period: "Juin-Août 2026",
         bullets: [
           "Déploiement d'un applicatif sur un VPS préalablement durci",

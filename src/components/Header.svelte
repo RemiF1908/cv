@@ -5,9 +5,9 @@
       title: "Étudiant ingénieur en informatique",
       image: "/images/photo.jpg",
       contact: {
-        email: "remi.ferrato@gmail.com",
+        email: "remiferrato@ik.me",
         phone: "+33 6 18 82 36 60",
-        location: "Nancy, FR"
+        location: "Montréal, CA"
       },
       social: {
         github: "github.com/RemiF1908",

@@ -3,7 +3,7 @@
     export let education = [
        {
         degree: "Maîtrise d'informatique - Cheminement en cybersécurité",
-        institution: "Université de Sherbrooke (Canada - QC)",
+        institution: "Université de Sherbrooke, Montréal, Canada",
         period: "2026 - 2027"
       },
       {
