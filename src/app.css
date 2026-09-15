@@ -3,31 +3,46 @@
 @tailwind utilities;
 
 @theme {
-  --color-primary: #3b82f6;
-  --color-dark: #1e293b;
-  --color-light: #f8fafc;
-  --color-background: #0d1014;
-  --color-card: #14171c;
+  --color-primary: #9b76e2; /* Soft Violet */
+  --color-primary-light: #b496eb;
+  --color-accent: #36d399; /* Mint Green */
+  --color-dark: #111116; 
+  --color-light: #a6a3b0; /* Lavender gray for text */
+  --color-background: #0f0e13; /* Very deep dark */
+  --color-card: #16151c; /* Slightly lighter purple-gray */
 }
 
+@layer base {
+  body {
+    @apply antialiased selection:bg-primary selection:text-white bg-background text-light;
+    font-family: "Inter", system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-gray-100 font-medium tracking-tight;
+  }
+}
+
+/* Beautiful Green/Purple gradient for skill bars */
 .skill-bar {
-  @apply h-2 rounded bg-gray-200 overflow-hidden;
+  @apply h-[3px] w-full bg-white/5 mt-2 rounded-full overflow-hidden;
 }
 
 .skill-progress {
-  @apply h-full bg-primary transition-all duration-1000;
+  @apply h-full transition-all duration-1000 ease-out;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
 }
 
+/* Elegant minimalist timeline */
 .timeline-item:not(:last-child)::after {
-  @apply absolute left-3 top-6 h-[calc(100%-24px)] w-0.5 bg-gray-300;
+  @apply absolute left-3 top-6 h-[calc(100%-24px)] w-[1px] bg-white/10;
   content: '';
 }
 
-/* Animations pour les compétences */
-@keyframes slideInLeft {
+@keyframes fadeInRight {
   from {
     opacity: 0;
-    transform: translateX(-30px);
+    transform: translateX(-15px);
   }
   to {
     opacity: 1;
@@ -36,21 +51,10 @@
 }
 
 .skill-item {
-  animation: slideInLeft 0.6s ease-out;
+  animation: fadeInRight 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* Effet de brillance sur les barres de progression */
-@keyframes shimmer {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
-
-.skill-progress {
-  background: linear-gradient(90deg, #3b82f6, #06b6d4, #3b82f6);
-  background-size: 200% 100%;
-  animation: shimmer 2s infinite;
+/* Photo filter */
+.profile-img {
+  filter: contrast(1.1) saturate(0.8);
 }

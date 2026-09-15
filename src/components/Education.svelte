@@ -24,7 +24,7 @@
     ];
   </script>
   
-  <section class="bg-card rounded-xl shadow-md p-8">
+  <section>
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-graduation-cap mr-3"></i>
       <span>Formation</span>

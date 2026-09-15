@@ -7,7 +7,7 @@
   </script>
   
   <div class="relative pl-8 timeline-item">
-    <div class="absolute left-0 top-0 w-6 h-6 rounded-full bg-primary border-4 border-white z-10"></div>
+    <div class="absolute left-0 top-0 w-6 h-6 rounded-full bg-primary border-4 border-card z-10"></div>
     <div class="mb-2">
       <h3 class="text-xl font-semibold">{title}</h3>
       <div class="flex flex-wrap justify-between text-light">

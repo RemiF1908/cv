@@ -4,7 +4,7 @@
     export let bullets;
   </script>
   
-  <div class="project-card bg-gray-1000 rounded-lg p-6 border border-gray-200 transition-all duration-300">
+  <div class="project-card bg-card rounded-lg p-6 border border-white/5 hover:border-primary/30 transition-all duration-300">
     <div class="flex items-center mb-4">
 
       <h3 class="text-lg font-semibold">{title}</h3>

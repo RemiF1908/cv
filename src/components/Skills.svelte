@@ -42,7 +42,7 @@
     };
   </script>
   
-  <section class="bg-card rounded-xl shadow-md p-8">
+  <section>
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-cogs mr-3"></i>
       <span>Compétences</span>
@@ -51,7 +51,7 @@
     <div class="space-y-6">
       <!-- Langages -->
       <div>
-        <h3 class="font-semibold mb-3 text-gray-300">Langages</h3>
+        <h3 class="font-semibold mb-3 text-light">Langages</h3>
         <div class="flex flex-wrap gap-3">
           {#each skills.language as skill}
             <SkillItem name={skill.name} />
@@ -61,7 +61,7 @@
       
       <!-- Outils -->
       <div>
-        <h3 class="font-semibold mb-3 text-gray-300">Outils</h3>
+        <h3 class="font-semibold mb-3 text-light">Outils</h3>
         <div class="flex flex-wrap gap-3">
           {#each skills.other as skill}
             <SkillItem name={skill} />
@@ -70,9 +70,9 @@
       </div>
       
       <!-- Root-Me -->
-      <div class="pt-4 border-t border-gray-700">
-        <span class="font-semibold text-gray-300">Point{s} Root-Me : </span>
-        <span class="text-xl text-cyan-400">{score}</span>
+      <div class="pt-4 border-t border-white/10">
+        <span class="font-semibold text-light">Point{s} Root-Me : </span>
+        <span class="text-xl text-primary font-bold">{score}</span>
       </div>
     </div>
   </section>
