@@ -31,7 +31,7 @@
     <div class="container mx-auto px-4 py-8 max-w-6xl">
       <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
         <!-- Sidebar (Sticky on Desktop) -->
-        <div class="lg:w-1/3 lg:sticky lg:top-8 self-start space-y-12">
+        <div class="lg:w-1/3 lg:sticky lg:top-8 self-start space-y-12 lg:max-h-[calc(100vh-4rem)] lg:overflow-y-auto custom-scrollbar lg:pr-4">
           <Header />
           <div class="space-y-12 hidden lg:block">
             <Skills />
@@ -52,6 +52,8 @@
           <div class="space-y-16 lg:hidden">
             <Skills />
             <Languages />
+            <Hobby />
+
           </div>
         </div>
       </div>
