@@ -4,17 +4,20 @@
        {
         degree: "Maîtrise d'informatique - Cheminement en cybersécurité",
         institution: "Université de Sherbrooke, Montréal, Canada",
-        period: "2026 - 2027"
+        period: "2026 - 2027",
+        link: "https://www.usherbrooke.ca/cefti/programmes-etudes/cybersecurite/maitrise-en-informatique-cheminement-cybersecurite"
       },
       {
-        degree: "Ingénieur du numérique",
+        degree: "Ingénieur - Spécialisation en cybersécurité",
         institution: "Télécom Nancy",
-        period: "2024 - 2027"
+        period: "2024 - 2027",
+        link: "https://telecomnancy.univ-lorraine.fr/"
       },
       {
         degree: "Classe préparatoire intégrée",
         institution: "Prépa des INP, Grenoble",
-        period: "2022 - 2024"
+        period: "2022 - 2024",
+        link: "https://www.groupe-inp.fr/la-prepa-des-inp"
       },
       {
         degree: "Baccalauréat Mathématiques - Sciences de l'ingénieur",
@@ -32,7 +35,9 @@
     <div class="space-y-6">
       {#each education as edu}
         <div>
-          <h3 class="text-lg font-semibold">{edu.degree}</h3>
+          <a href="{edu.link}">
+            <h3 class="text-lg font-semibold hover:text-accent transition-colors">{edu.degree}</h3>
+          </a>
           <p class="text-light">{edu.institution}</p>
           <p class="text-sm text-gray-500">{edu.period}</p>
         </div>

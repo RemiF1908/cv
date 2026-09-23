@@ -7,7 +7,7 @@
     import Education from '../components/Education.svelte';
     import Certifications from '../components/Certifications.svelte';
     import Languages from '../components/Languages.svelte';
-    
+    import Hobby from '../components/Hobby.svelte'
     import { onMount } from 'svelte';
     import Assocs from '../components/Assocs.svelte';
   
@@ -36,6 +36,7 @@
           <div class="space-y-12 hidden lg:block">
             <Skills />
             <Languages />
+            <Hobby />
           </div>
         </div>
         

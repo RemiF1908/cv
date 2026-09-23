@@ -43,7 +43,7 @@
         bullets: [
           "Administration d'un serveur",
           "Utilisation de Google Workspace",
-          "Déploiement d'application sur un cluster Kubernetes en GitOps"
+          "Déploiement d'applications sur un cluster Kubernetes en GitOps"
         ]      
       },
     ];

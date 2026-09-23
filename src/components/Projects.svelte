@@ -7,11 +7,12 @@
         title: "OpenBar",
         description: "Application web open source permettant la gestion de la cafétéria de Télécom Nancy",
         tech: ["Golang", "Svelte", "MongoDB"],
-        icon: "utensils"
+        icon: "utensils",
+        link: "https://github.com/CETEN-OpenBar/bar"
       },
       {
         title: "EDT CPP",
-        description: "Site web permettant aux étudiants de la Prépa des INP de Grenoble d'obtenir un fichier ICS avec leur emploi du temps personnalisé en fonction de leurs options  ",
+        description: "Site web permettant aux étudiants de la Prépa des INP de Grenoble d'obtenir un fichier ICS avec leur emploi du temps personnalisé en fonction de leurs options",
         tech: ["Python", "Azure"],
         icon: "project-diagram"
       },

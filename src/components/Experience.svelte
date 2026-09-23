@@ -27,7 +27,7 @@
         company: "IRNC (Institut de recherche sur la résolution non-violente des conflits)",
         period: "Mai-Juin 2024",
         bullets: [
-          "Développement d'outils en Python d'analyse d'image avec Google API",
+          "Développement d'outils en Python d'analyse d'images avec Google API",
           "Utilisation de Git et de Docker"
         ]
       },
@@ -36,7 +36,7 @@
         company: "Nexvision, Marseille.",
         period: "Avril 2019",
         bullets: [
-          "Découverte des métiers en lien avec l'optronique, la CAO, et le développement logiciel",
+          "Découverte des métiers en lien avec l'optronique, la CAO et le développement logiciel",
         ]
       },
     ];
@@ -45,7 +45,7 @@
   <section>
     <h2 class="text-2xl font-bold text-primary mb-6 flex items-center">
       <i class="fas fa-briefcase mr-3"></i>
-      <span>Expérience professionnelle</span>
+      <span>Expériences professionnelles</span>
     </h2>
     
     <div class="space-y-8 relative">

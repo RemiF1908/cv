@@ -14,7 +14,7 @@
         linkedin: "linkedin.com/in/remiferrato",
         rootme: "root-me.org/7low"
       },
-      about: "Étudiant en école d'ingénieur à Télécom Nancy, actuellement en double-diplôme à l'Université de Sherbrooke"
+      about: "Étudiant en école d'ingénieurs à Télécom Nancy, actuellement en double diplôme à l'Université de Sherbrooke"
     };
   </script>
   
@@ -59,6 +59,7 @@
         </svg>
         <p>Permis B - Véhiculé</p>
       </div>
+      <div class="flex items-center justify-center lg:justify-start">{profile.about}</div>
       
       <div class="pt-6 mt-6 border-t border-white/5 flex gap-4 justify-center lg:justify-start">
         <a href={`https://${profile.social.github}`} target="_blank" rel="noopener noreferrer" class="p-3 bg-white/5 rounded-lg hover:bg-white/10 hover:text-accent transition-colors">

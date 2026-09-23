@@ -32,7 +32,7 @@
       language: [
         { name: "Python", percentage: 90 },
         { name: "Golang", percentage: 60 },
-        { name: "Php", percentage: 70 },
+        { name: "PHP", percentage: 70 },
         { name: "C", percentage: 60 },
         { name: "HTML/CSS", percentage: 85 },
         { name: "JavaScript/TypeScript", percentage: 60 },
