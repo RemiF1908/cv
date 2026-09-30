@@ -59,7 +59,7 @@
       </div>
   
       <footer class="mt-12 text-center text-gray-500 text-sm">
-        <p class="mt-4">© 2025 Rémi Ferrato.</p>
+        <p class="mt-4">© 2026 Rémi Ferrato.</p>
       </footer>
     </div>
   </div>
